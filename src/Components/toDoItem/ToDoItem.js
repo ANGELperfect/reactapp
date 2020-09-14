@@ -13,7 +13,7 @@ const ToDoItem = (p) =>{
                 <span className="action icon" onClick={() => dlt(i.id)}>&times;</span>
             </div>
         )
-    } )) : (<p>there is no items to show</p>)
+    } )) : (<p> No members to show :( add some</p>)
     return(
         <div className="listItems">
             <div>
